@@ -81,6 +81,13 @@ mysql> show create table users\G
 ```
 mysql> select * from users;
 ```
+> 如果连接 mysql 8.x 报错：Client does not support authentication protocol requested by server; consider upgrading MySQL client ，解决办法：https://www.cnblogs.com/cag2050/p/11177493.html
+
+### 步骤四：访问接口地址
+1. 如果数据库 user 表中有 id 为28的记录：
+```
+http://127.0.0.1:7001/user/28
+```
 
 ## QuickStart
 
