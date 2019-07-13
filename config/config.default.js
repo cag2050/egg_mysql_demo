@@ -16,10 +16,10 @@ module.exports = appInfo => {
   config.keys = appInfo.name + '_1562918743290_1706';
 
   // add your middleware config here
-  config.middleware = ['compress'];
+  config.middleware = [ 'compress' ];
   config.compress = {
-    threshold: 2048
-  },
+    threshold: 2048,
+  }
 
   // add your user config here
   const userConfig = {

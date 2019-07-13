@@ -1,7 +1,6 @@
 'use strict';
 
 /** @type Egg.EggPlugin */
-/*
 module.exports = {
   // had enabled by egg
   // static: {
@@ -11,10 +10,4 @@ module.exports = {
     enable: true,
     package: 'egg-mysql',
   },
-};
-*/
-
-exports.mysql = {
-  enable: true,
-  package: 'egg-mysql',
 };
