@@ -20,6 +20,9 @@ module.exports = appInfo => {
   config.compress = {
     threshold: 2048,
   }
+  config.i18n = {
+    defaultLocale: 'zh-CN',
+  }
 
   // add your user config here
   const userConfig = {

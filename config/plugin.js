@@ -14,4 +14,8 @@ module.exports = {
     enable: true,
     package: 'egg-validate',
   },
+  // i18n: {
+  //   enable: true,
+  //   package: 'egg-i18n',
+  // },
 };
